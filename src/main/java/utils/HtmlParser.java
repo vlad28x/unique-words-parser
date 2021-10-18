@@ -25,13 +25,13 @@ public class HtmlParser {
     }
 
     public String getURL() {
-        //Всегда в конце URL не будет слеша и вернется строка в верхем регистре, для удобной работы с БД
+        //Всегда в конце URL не будет слеша и вернется строка в верхнем регистре, для удобной работы с БД
         return (URL.getProtocol() + "://" + URL.getHost() + URL.getPath()).replaceAll("/+$", "").toUpperCase(Locale.ROOT);
     }
 
     // Метод парсит HTML при помощи регулярных выражений.
     // Результат иногда незначительно отличается от метода getUniqueWordsByJsoup.
-    // Это связано разлиными способами парсинга.
+    // Это связано с различными способами парсинга.
     public UniqueWordsContainer getUniqueWordsByRegex() {
         UniqueWordsContainer uwContainer = new UniqueWordsContainer();
         String text = getHtmlText();
@@ -48,9 +48,9 @@ public class HtmlParser {
         return uwContainer;
     }
 
-    // Метод парсит HTML при помощи библиотеке Jsoup.
+    // Метод парсит HTML при помощи библиотеки Jsoup.
     // Результат иногда незначительно отличается от метода getUniqueWordsByRegex.
-    // Это связано разлиными способами парсинга.
+    // Это связано с различными способами парсинга.
     public UniqueWordsContainer getUniqueWordsByJsoup() {
         UniqueWordsContainer uwContainer = new UniqueWordsContainer();
         String text = getHtmlText();
@@ -62,7 +62,7 @@ public class HtmlParser {
         return uwContainer;
     }
 
-    // Метод возвращает HTML текст, полученый с web-страницы
+    // Метод возвращает HTML текст, полученный с web-страницы
     private String getHtmlText() {
         String text = null;
         try (Scanner scanner = new Scanner(URL.openStream())) {
@@ -74,7 +74,7 @@ public class HtmlParser {
         return text;
     }
 
-    // Метод заменяте все цифры(в словах, содержащих цифры, они не удаляеются) и
+    // Метод заменяет все цифры (в словах, содержащих цифры, они не удаляются) и
     // выражения вида "---" " — ", которые могут возникнуть после удаления цифр, а также специальные символы на " ".
     // В словах, содержащих дефис, дефис не будет заменятся.
     // К примеру слово "по-другому" будет считаться одним целым словом, а не двумя разными "по" и "другому".
@@ -86,7 +86,7 @@ public class HtmlParser {
         return matcher.replaceAll(" ");
     }
 
-    // Метод возвращает динаический массив из строки при помощи списка разделитей
+    // Метод возвращает динамический массив из строки при помощи списка разделителей
     private List<String> split(String text) {
         return new ArrayList<>(Arrays.asList(text.split("[\\Q  .,!?\"';:][()«»{}/\\|+=*<>%$#@^_&\\E]+")));
     }

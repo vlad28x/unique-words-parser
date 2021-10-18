@@ -40,7 +40,7 @@ public class MainController {
                 websiteArrayList = dbWebsite.find(htmlParser.getURL());
                 if (websiteArrayList.size() > 0) {
                     System.out.println("В БД уже имеются уникальные слова с этого сайта.\n" +
-                            "1 - получить уникальные слова при момощи методов (default);\n" +
+                            "1 - получить уникальные слова при помощи методов (default);\n" +
                             "2 - получить уникальные слова с БД.");
                     choice = scanner.next();
                     if (choice.equals("2")) {
@@ -58,7 +58,7 @@ public class MainController {
         LOGGER.info("Программа завершена");
     }
 
-    // Иницмализация логгера
+    // Инициализация логгера
     private static void initLogger() {
         try {
             Handler fileHandler = new FileHandler("log.txt", true);// Файловый обработчик

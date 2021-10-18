@@ -2,7 +2,7 @@ package utils;
 
 import java.util.*;
 
-// Класс для удобного добавления уникальных слов в Map с автоматическим подсчетом их количества
+// Класс для удобного добавления уникальных слов в Map с автоматическим подсчетом их частот встречаемости
 public class UniqueWordsContainer {
     private final Map<String, Integer> map;
 
@@ -30,10 +30,6 @@ public class UniqueWordsContainer {
     public void print() {
         for (Map.Entry<String, Integer> entry : getSetOfEntry())
             System.out.println(entry.getKey() + " - " + entry.getValue());
-    }
-
-    public Map<String, Integer> getMap() {
-        return map;
     }
 
     @Override
