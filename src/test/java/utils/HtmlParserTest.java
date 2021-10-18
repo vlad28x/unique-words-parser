@@ -7,6 +7,7 @@ import java.net.MalformedURLException;
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 
 class HtmlParserTest {
@@ -30,6 +31,25 @@ class HtmlParserTest {
                 "Скибин", "Владислав", "по", "всем", "вопросам", "пишите", "по", "адресу", "vladskibin", "bk", "ru"};
         uwContainer = new UniqueWordsContainer();
         uwContainer.addAll(Arrays.asList(arrayStrings));// Map уникальных слов и их количество на web-странице
+    }
+
+    @Test
+    void HtmlParserInvalidURL() {
+        try {
+            new HtmlParser("invalidURL");
+            fail("Expected exception not thrown");
+        } catch (MalformedURLException e) {
+            //pass
+        }
+    }
+
+    @Test
+    void HtmlParserValidURL() {
+        try {
+            new HtmlParser("https://vlad28x.github.io/2/2.html");
+        } catch (MalformedURLException e) {
+            fail("Exception thrown");
+        }
     }
 
     @Test
