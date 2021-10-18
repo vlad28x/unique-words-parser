@@ -1,0 +1,88 @@
+[Fri Oct 15 20:33:38 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 20:37:30 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 20:38:06 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 20:38:27 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 20:40:18 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 20:40:20 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.com/
+[Fri Oct 15 20:42:37 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 20:42:38 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.com/
+[Fri Oct 15 20:42:46 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 20:42:47 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.com/
+[Fri Oct 15 20:44:38 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 20:44:39 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.com/
+[Fri Oct 15 20:53:55 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 20:53:56 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.com/
+[Fri Oct 15 22:52:36 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 22:52:47 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 22:52:49 MSK 2021] WARNING: Задан не верный URL-адрес
+[Fri Oct 15 22:53:33 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://metanit.com/java/tutorial/9.1.php/
+[Fri Oct 15 22:55:58 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.com/
+[Fri Oct 15 22:56:30 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 22:56:43 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.com//
+[Fri Oct 15 22:59:14 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 22:59:25 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.com/
+[Fri Oct 15 23:00:14 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 23:00:20 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.co/
+[Fri Oct 15 23:00:39 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 23:01:03 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 23:01:08 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.com/
+[Fri Oct 15 23:01:18 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.com
+[Fri Oct 15 23:01:44 MSK 2021] INFO: Запущена программа
+[Fri Oct 15 23:01:50 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.com/
+[Fri Oct 15 23:01:55 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.com/
+[Fri Oct 15 23:01:59 MSK 2021] WARNING: Невозможно получить HTML-страницу сайта https://www.baeldung.com/
+[Fri Oct 15 23:05:13 MSK 2021] INFO: Программа запущена
+[Fri Oct 15 23:05:32 MSK 2021] WARNING: Задан не верный URL-адрес
+[Fri Oct 15 23:05:32 MSK 2021] WARNING: Задан не верный URL-адрес
+[Fri Oct 15 23:05:34 MSK 2021] WARNING: Задан не верный URL-адрес
+[Fri Oct 15 23:05:39 MSK 2021] INFO: Программа завершена
+[Sat Oct 16 22:53:11 MSK 2021] WARNING: [SQLITE_CONSTRAINT_UNIQUE]  A UNIQUE constraint failed (UNIQUE constraint failed: website.url)
+[Sat Oct 16 22:53:12 MSK 2021] WARNING: org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_UNIQUE]  A UNIQUE constraint failed (UNIQUE constraint failed: website.url)
+[Sun Oct 17 13:08:48 MSK 2021] WARNING: [SQLITE_CONSTRAINT_UNIQUE]  A UNIQUE constraint failed (UNIQUE constraint failed: website.url)
+[Sun Oct 17 13:08:48 MSK 2021] WARNING: org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_UNIQUE]  A UNIQUE constraint failed (UNIQUE constraint failed: website.url)
+[Sun Oct 17 13:08:59 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 13:09:01 MSK 2021] WARNING: java.net.MalformedURLException: no protocol: аа
+[Sun Oct 17 13:42:20 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 13:43:07 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 13:47:16 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 13:47:36 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 13:50:51 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 15:49:41 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 15:52:07 MSK 2021] INFO: Программа завершена
+[Sun Oct 17 15:57:30 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 15:57:46 MSK 2021] INFO: Введен url адрес: https://www.yandex.ru/
+[Sun Oct 17 15:57:49 MSK 2021] INFO: Получен список уникальных слов с сайта https://www.yandex.ru/ при помощи Jsoup
+[Sun Oct 17 15:59:48 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 15:59:53 MSK 2021] INFO: Введен url адрес: https://yandex.ru/
+[Sun Oct 17 15:59:58 MSK 2021] INFO: Получен список уникальных слов с сайта https://yandex.ru/ при помощи Jsoup
+[Sun Oct 17 16:02:12 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 16:02:15 MSK 2021] INFO: Введен url адрес: https://yandex.ru/
+[Sun Oct 17 16:02:19 MSK 2021] INFO: Получен список уникальных слов с сайта https://yandex.ru/ при помощи Jsoup
+[Sun Oct 17 16:03:18 MSK 2021] INFO: Введен url адрес: https://yandex.ru/
+[Sun Oct 17 16:03:22 MSK 2021] INFO: Получен список уникальных слов с сайта https://yandex.ru/ при помощи регулярных выражений
+[Sun Oct 17 16:04:08 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 16:04:16 MSK 2021] INFO: Введен url адрес: https://yandex.ru/
+[Sun Oct 17 16:04:27 MSK 2021] INFO: Получен список уникальных слов с сайта https://yandex.ru/ при помощи регулярных выражений
+[Sun Oct 17 16:05:13 MSK 2021] INFO: Введен url адрес: https://yandex.ru/
+[Sun Oct 17 16:05:33 MSK 2021] INFO: Получен список уникальных слов с сайта https://yandex.ru/ при помощи Jsoup
+[Sun Oct 17 16:06:02 MSK 2021] INFO: Введен url адрес: q
+[Sun Oct 17 16:06:02 MSK 2021] INFO: Программа завершена
+[Sun Oct 17 17:49:11 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 17:50:51 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 17:50:53 MSK 2021] INFO: Введен URL-адрес: HTTPS://VLAD28X.GITHUB.IO/2/
+[Sun Oct 17 17:50:57 MSK 2021] INFO: Получен список уникальных слов с сайта HTTPS://VLAD28X.GITHUB.IO/2/ при помощи Jsoup
+[Sun Oct 17 17:56:24 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 17:56:27 MSK 2021] INFO: Введен URL-адрес: https://vlad28x.github.io/2/2.html
+[Sun Oct 17 17:56:33 MSK 2021] INFO: Получен список уникальных слов с сайта https://vlad28x.github.io/2/2.html при помощи Jsoup
+[Sun Oct 17 17:57:15 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 17:57:17 MSK 2021] INFO: Введен URL-адрес: https://vlad28x.github.io/2/2.html
+[Sun Oct 17 17:58:58 MSK 2021] INFO: Получен список уникальных слов с сайта https://vlad28x.github.io/2/2.html при помощи Jsoup
+[Sun Oct 17 17:59:40 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 17:59:42 MSK 2021] INFO: Введен URL-адрес: https://vlad28x.github.io/2/2.html
+[Sun Oct 17 18:00:09 MSK 2021] INFO: Получен список уникальных слов с сайта https://vlad28x.github.io/2/2.html при помощи Jsoup
+[Sun Oct 17 18:00:28 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 18:00:30 MSK 2021] INFO: Введен URL-адрес: https://vlad28x.github.io/2/2.html
+[Sun Oct 17 18:01:53 MSK 2021] INFO: Получен список уникальных слов с сайта https://vlad28x.github.io/2/2.html при помощи Jsoup
+[Sun Oct 17 18:03:51 MSK 2021] INFO: Программа запущена
+[Sun Oct 17 18:03:54 MSK 2021] INFO: Введен URL-адрес: https://vlad28x.github.io/2/2.html
+[Sun Oct 17 18:04:18 MSK 2021] INFO: Получен список уникальных слов с сайта https://vlad28x.github.io/2/2.html при помощи Jsoup
